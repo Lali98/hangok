@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangok</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div id="hangok">
+    <form id="hangokForm">
+        <select name="hangokListaja" id="hangokListaja">
+            <option value="storm" selected>Vihar</option>
+            <option value="waterfall">Vizesés</option>
+            <option value="windy">Szél</option>
+        </select><br>
+        <div id="hanglejatszo">
+            <audio id="hang" controls hidden></audio>
+        </div>
+        <button type="submit" id="vezelo">Lejátszás</button>
+    </form>
+</div>
+
+<!--JS-->
+<script src="script.js"></script>
+</body>
+</html>
